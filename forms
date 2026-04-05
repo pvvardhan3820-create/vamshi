@@ -31,7 +31,7 @@
      </SELECT><br><br>
     DOB : <input type="date" ><br> <br>
     Address : <br><textarea  placeholder="Address"></textarea><br><br>
-    Pincode : <input type="tel" placeholder="50xxxxx"><br><br>
+    Pincode : <input type="tel" placeholder="5000xx"><br><br>
     Email id : <input type="email" placeholder="Emailxxx@gmail.com"><br><br>
     Phone Number : <input type="tel" placeholder="91xxxxxxxxxx"><br><br>
     <button class= "btn" type="submit" form="forms" >Submit</button>
