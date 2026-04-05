@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+   <style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+}
+
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 15px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #f3eaea;
+    text-decoration: none;
+}
+
+
+.hero {
+    height: 90vh;
+    background:  linear-gradient(to right,#4facfe, #00f2fe);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ece6e6;
+}
+
+.hero h1 span {
+    color: #222;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #222;
+    color: #f2e7e7;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+section {
+    padding: 50px;
+    text-align: center;
+    background: linear-gradient(to right,#4facfe, #00f2fe);
+}
+
+
+.project-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    background: #de0f0f;
+    margin: 15px;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+
+footer {
+    background: hsl(0, 30%, 4%);
+    color: rgb(243, 238, 238);
+    padding: 15px;
+    text-align: center;
+}
+   </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <h2 class="logo">MyPortfolio</h2>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <h1>Hello, I'm <span>P.Vamshi Vardhan</span></h1>
+            <p>Web Developer | Designer | Student | athlet </p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+    </section>
+
+    
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>
+            I am a passionate developer who loves building clean and modern web applications. and like to do innovative stuff.
+        </p>
+    </section>
+
+    
+    <section id="projects" class="projects">
+        <h2>My Projects</h2>
+        <div class="project-container">
+
+            <div class="project-card">
+                <h3>website</h3>
+                <p>weather forcast.</p>
+            </div>
+
+            <div class="project-card">
+                <h3>Free lancing</h3>
+                <p>made a working web page for a startup.</p>
+            </div>
+
+            <div class="project-card">
+                <h3>app development</h3>
+                <p>done an proper app and a web site for an upi based compant.</p>
+            </div>
+
+        </div>
+    </section>
+
+    
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <a target = "_blank" href="https://mail.google.com/mail/?view=cm&fs=1&to=pvvardhan3820@gmail.com">
+      pvvardhan3820@gmail.com
+        <a href="https://www.linkedin.com/in/vamshi-vardhan-undefined-70b83b3b4?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank">LinkedIn </a>
+    </section>
+
+    
+    <footer>
+        <p>© 2026 . All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+</style>
+<h1 class="head">Forms : ABOUT YOURSELF</h1>
+<form id="forms">
+   Name : <input type="text" placeholder="Name" ><br><br>
+   Roll No : <input type="text" placeholder="Roll"><br><br>
+   <label for="Class">Branch:</label>
+<select id="Class" name="Class">
+    <option value="CSE">CSE</option>
+    <option value="CSM">CSM</option>
+    <option value="CSDS">CSDS</option>
+    <option value="CSBS">CSBS</option>
+</select>
+    <label for="Sec">Section : </label>
+<select id="Sec" name="Section">
+    <option value="A">A</option>
+    <option value="B">B</option> 
+    <option value="C">C</option>
+    <option value="D">D</option>
+</select><br><br>
+     <label for="group">BLOOD GROUP : </label>
+     <SELECT ID="group" name="group">
+        <option value="O +">O +</option>
+         <option value="A +">A +</option>
+         <OPTION value="B +">B +</OPTION>
+         <option value="O -">O -</option>
+         <option value="A -">A -</option>
+         <option value="B -">B -</option>
+         <option value="AB -">AB -</option>
+         <option value="AB +">AB +</option>
+        </option>
+     </SELECT><br><br>
+    DOB : <input type="date" ><br> <br>
+    Address : <br><textarea  placeholder="Address"></textarea><br><br>
+    Pincode : <input type="tel" placeholder="50xxxxx"><br><br>
+    Email id : <input type="email" placeholder="Emailxxx@gmail.com"><br><br>
+    Phone Number : <input type="tel" placeholder="91xxxxxxxxxx"><br><br>
+    <button class= "btn" type="submit" form="forms" >Submit</button>
+    <button type="reset" form="forms">Reset</button>
+</form>
